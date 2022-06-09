@@ -17,6 +17,10 @@ public class Empleado extends Persona {
         this.ContractType = pContractType;
         this.employeeID = pEmployeeID;
     }
+    @Override
+    public void mostrarInformacion(){
+        System.out.println("Mi número de empleado es "+employeeID+" y mi tipo de contrato es "+ContractType);
+    }
 
     public int getEmployeeID() {
         return employeeID;

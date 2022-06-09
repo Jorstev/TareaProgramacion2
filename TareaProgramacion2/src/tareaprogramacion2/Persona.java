@@ -19,6 +19,10 @@ public class Persona {
         this.lastName = plastName;
     }
 
+    public void mostrarInformacion(){
+        System.out.println("Mi nombre es "+name+" "+lastName+" y tengo "+age);
+    }
+    
     public String getName() {
         return name;
     }

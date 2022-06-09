@@ -15,6 +15,9 @@ public class TareaProgramacion2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //Ejemplo para crear un objeto SrumMaster
+        ScrumMaster scrumPersona1 = new ScrumMaster("Jordan", 28, "Chavarria", "Full-Time", 1234, 10000, "Creación de Requerimientos");
+        scrumPersona1.mostrarInformacion();
     }
     
 }
